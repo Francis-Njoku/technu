@@ -1,0 +1,46 @@
+@import "../../variables";
+
+.main_container {
+  p,
+  small {
+    color: $lightash;
+  }
+
+  @media (min-width: 775px) {
+    // customize scrollbar
+
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    // Track
+    ::-webkit-scrollbar-track {
+      background: $dark;
+    }
+
+    // Handle
+    ::-webkit-scrollbar-thumb {
+      background: $darkash;
+    }
+
+    // Handle hover
+    ::-webkit-scrollbar-thumb:hover {
+      background: $blue;
+    }
+  }
+
+  section.inner_container {
+    margin: 0 0 0 260px;
+    min-height: 100vh;
+    
+    main {
+      background-color: #1a1b1f;
+    }
+  }
+}
+
+@media (max-width: 1125px) {
+  .main_container section.inner_container {
+    margin: 0;
+  }
+}

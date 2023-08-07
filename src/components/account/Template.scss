@@ -1,0 +1,247 @@
+@import "../../variables";
+
+#account {
+  .page-header {
+    padding: 1rem 1.5rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+  }
+
+  .main-wrapper {
+    display: flex;
+    width: 100%;
+
+    aside {
+      width: 25%;
+      padding: 1.5rem 0;
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        padding: 0.5rem 0;
+        font-weight: bold;
+      }
+
+      a {
+        color: $lightteal;
+      }
+
+      li.active a {
+        color: $blue;
+      }
+    }
+
+    main {
+      width: 75%;
+      padding: 0 10% 5%;
+    }
+  }
+
+  @media (max-width: 945px) {
+    .main-wrapper {
+      flex-direction: column;
+
+      aside {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        box-sizing: border-box;
+
+        ::-webkit-scrollbar {
+          display: none;
+        }
+    
+      }
+
+      ul {
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        min-width: 100%;
+        padding: 1rem 3% 1rem;
+        overflow-x: auto;
+        box-sizing: border-box;
+      }
+
+      li {
+        text-align: center;
+        padding: 1.2rem 0rem 0 !important;
+        border-bottom: 3px solid transparent;
+        min-width: fit-content;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        display: block;
+
+        a {
+          padding: 0 1rem 0.7rem;
+        }
+      }
+
+      li:last-child {
+        padding-right: 1.5rem !important;
+      }
+
+      li.active {
+  
+        a {
+          border-bottom: 3px solid $blue;
+          color: #fff;
+        }
+      }
+
+      main {
+        width: 100%;
+        padding: 5% 4%;
+      }
+    }
+  }
+
+  .form-section {
+    margin: 1rem 0 2rem;
+
+    &__title {
+      margin-bottom: 1rem;
+
+      h4 {
+        font-size: 0.9rem;
+      }
+    }
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+
+      @media (max-width: 530px) {
+        flex-direction: column;
+      }
+
+      .label {
+        width: 25%;
+
+        @media (max-width: 530px) {
+          width: 100%;
+          margin-bottom: 5px;
+          padding: 0 5px;
+        }
+
+        p {
+          font-size: 0.9rem;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+      }
+
+      .input-container {
+        display: flex;
+        justify-content: space-between;
+        width: 73%;
+        flex-wrap: wrap;
+
+        @media (max-width: 530px) {
+          width: 100%;
+        }
+
+        .ant-select {
+          width: 100%;
+        }
+
+        .ant-select-arrow,
+        .ant-select-selection-item {
+          color: $lightteal;
+        }
+
+        input,
+        .ant-select-selector {
+          width: 100%;
+          padding: 0.7rem;
+          border-radius: 6px;
+          background-color: $dark;
+          border: 1px solid transparent;
+          color: $lightteal;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+        }
+
+        button {
+          padding-top: 0.7rem !important;
+          padding-bottom: 0.7rem !important;
+        }
+
+        .ant-select-selector {
+          padding: 1.3rem;
+        }
+
+        input::placeholder {
+          color: $lightteal;
+          font-weight: 600;
+        }
+
+        input:focus {
+          outline: none;
+        }
+
+        p.form-tip {
+          font-size: 0.75rem;
+          width: 100%;
+          padding: 0.5rem;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        .checkboxes {
+          width: 100%;
+          margin: 1rem 0;
+
+          @media (max-width: 530px) {
+            margin: 1rem 5px;
+          }
+
+          .checkbox {
+            margin: 0 0 10px;
+          }
+
+          i {
+            color: #fff;
+            background-color: $blue;
+            border-radius: 3px;
+          }
+        }
+      }
+
+      .input-container.single {
+        .input-item {
+          width: 100%;
+        }
+      }
+
+      .input-container.double {
+        .input-item:nth-child(1) {
+          width: 24%;
+        }
+
+        .input-item:nth-child(2) {
+          width: 74%;
+        }
+      }
+
+      .input-container.triple {
+        .input-item:nth-child(1),
+        .input-item:nth-child(3) {
+          width: 24%;
+        }
+
+        .input-item:nth-child(2) {
+          width: 49%;
+        }
+      }
+    }
+  }
+}

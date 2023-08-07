@@ -1,0 +1,114 @@
+@import "../../../variables";
+
+.profile-modal .ant-modal-content .ant-modal-body {
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  padding: 12% 7%;
+
+  .modal__heading {
+    margin-bottom: 1rem;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    h4 {
+      margin: 0 0 1.6rem;
+      border-bottom: 2px solid $blue;
+      padding: 6px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      font-size: .8rem;
+      font-weight: bold;
+      font-family: gothambook;
+      width: fit-content;
+
+      span {
+        width: 15px;
+        height: 15px;
+        background-color: #000;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-left: 10px;
+      }
+    } 
+  }
+
+  @media(max-width: 775px) {
+    .main-container {
+      width: 90%;
+    }
+  }
+
+  @media(max-width: 420px) {
+    .main-container {
+      width: 100%;
+    }
+  }
+
+  .modal___button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+    button {
+      margin: 0 5px;
+      padding-right: 3rem !important;
+      padding-left: 3rem !important;
+    }
+
+    @media (max-width: 415px) {
+      button {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 48%;
+        margin: 0;
+      }
+    }
+
+    button:nth-child(1) {
+      background-color: $blue;
+      border: 2px solid $blue;
+    }
+
+    button:nth-child(1):hover {
+      background-color: darken($color: $blue, $amount: 10);
+      border-color: darken($color: $blue, $amount: 10);
+      // color: $dark;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .modal___button-container {
+      margin: auto 0 0 0;
+      padding: 0;
+      flex-direction: column;
+      width: 100%;
+
+      button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  }
+}

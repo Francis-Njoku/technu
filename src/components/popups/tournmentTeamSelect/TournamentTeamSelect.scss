@@ -1,0 +1,146 @@
+@import "../../../variables";
+
+.tournament-teamSelect-modal .ant-modal-content .ant-modal-body {
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  padding: 12% 7%;
+
+  .modal__heading {
+    margin-bottom: 1rem;
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    form {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 2rem;
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 40px;
+        width: 100%;
+  
+        h4 {
+          margin: 0;
+          border-bottom: 2px solid $blue;
+          padding: 6px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          font-size: 15px;
+          font-weight: bold;
+          font-family: gothambook;
+
+          span {
+            width: 15px;
+            height: 15px;
+            background-color: #000;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            margin-left: 10px;
+          }
+        }
+       
+        .input {
+          width: 100%;
+          margin-top: 15px;
+
+          .ant-select {
+            width: 100%;
+            font-size: 13px;
+
+            .ant-select-selector {
+              background-color: #212428;
+              border-color: #212428;
+              color: $lightash;
+              border-radius: 4px;
+              padding: 1.2rem;
+              display: flex;
+              align-items: center;
+            }
+
+            .ant-select-arrow {
+              color: $lightash;
+            }
+          }
+
+          p {
+            font-size: 13px;
+            margin-top: 1.3rem;
+            font-weight: 700;
+
+            span {
+              color: $blue;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  @media(max-width: 550px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+
+  @media(max-width: 420px) {
+    .form-container {
+      width: 100%;
+    }
+  }
+
+  .modal___button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+    
+  }
+
+  @media (max-width: 425px) {
+    .modal___button-container {
+      margin: auto 0 0 0;
+      padding: 0;
+      flex-direction: column;
+      width: 100%;
+
+      button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .tournament-teamSelect-modal .ant-modal-content .ant-modal-body {
+    padding: 20% 4%;
+  }
+}

@@ -1,0 +1,1695 @@
+@import '../../variables';
+
+#services {
+  .services-page {
+    align-items: center;
+    background-color: var(--background-colour040505);
+    display: flex;
+    flex-direction: column;
+    height: 6260px;
+    overflow: hidden;
+    padding: 39.7px 0;
+    width: 1440px;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .group-12538 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 53.91px;
+    margin-top: 168px;
+    min-height: 1009px;
+    width: 1097px;
+  }
+  
+  .companies-that-trust-tek-sight-edge {
+    letter-spacing: 0;
+    min-height: 136px;
+    width: 545px;
+  }
+  
+  .group-12537 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2px;
+    margin-top: 0;
+    min-height: 793px;
+    width: 1060px;
+  }
+  
+  .group-430 {
+    align-items: flex-start;
+    display: flex;
+    min-width: 1060px;
+  }
+  
+  .overlap-group-1 {
+    align-items: flex-start;
+    border-radius: 129.5px;
+    display: flex;
+    height: 259px;
+    margin-left: 8px;
+    min-width: 259px;
+    padding: 94.5px 75.5px;
+  }
+  
+  .logo {
+    letter-spacing: 0;
+    min-height: 68px;
+  }
+  
+  .overlap-group {
+    align-items: flex-start;
+    border-radius: 129.5px;
+    display: flex;
+    height: 259px;
+    min-width: 259px;
+    padding: 94.5px 75.5px;
+  }
+  
+  .group {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 8px;
+    min-width: 1060px;
+  }
+  
+  .flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.02px;
+    min-height: 4369px;
+    width: 1360px;
+  }
+  
+  .vector-28 {
+    height: 1px;
+    margin-right: 1.27px;
+    margin-top: 101px;
+    width: 1133px;
+  }
+  
+  .flex-row-6 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 88px;
+    margin-top: 136px;
+    min-width: 1133px;
+  }
+  
+  .flex-col-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 0.25px;
+    min-height: 376px;
+    width: 735px;
+  }
+  
+  .the-kenya-election-w {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 40px;
+    min-height: 96px;
+    width: 735px;
+  }
+  
+  .usaid-ifes-media-mon {
+    letter-spacing: 0;
+    min-height: 114px;
+    width: 735px;
+    text-align: left;
+    line-height: normal;
+  }
+  
+  .brand-usaid-ifes-pr {
+    color: var(--gallery);
+    font-weight: 600;
+    line-height: 34px;
+    margin-top: 24px;
+    min-height: 102px;
+    width: 735px;
+  }
+  
+  .span-3 {
+    font-weight: 400;
+  }
+  
+  .span-2 {
+    font-weight: 600;
+  }
+  
+  .overlap-group10 {
+    height: 411px;
+    position: relative;
+    width: 338px;
+  }
+  
+  .rectangle-37 {
+    height: 282px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 337px;
+  }
+  
+  .number-2 {
+    -webkit-text-stroke: 1px var(--brand-coloureea120);
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    top: 151px;
+  }
+  
+  .flex-col-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 3679px;
+    width: 1360px;
+  }
+  
+  .vector-27 {
+    height: 1px;
+    margin-right: 1.27px;
+    margin-top: 135px;
+    width: 1133px;
+  }
+  
+  .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    height: 853px;
+    margin-left: 134px;
+    margin-top: 0px;
+    min-width: 1138px;
+  }
+  
+  .overlap-group12 {
+    height: 404px;
+    position: relative;
+    width: 337px;
+  }
+  
+  .rectangle-3 {
+    height: 282px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 337px;
+  }
+  
+  .number-1 {
+    -webkit-text-stroke: 1px var(--brand-coloureea120);
+    left: 132px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 144px;
+  }
+  
+  .flex-col-3 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    min-height: 853px;
+    width: 741px;
+  }
+  
+  .brand-tecno-mobile {
+    color: var(--gallery);
+    font-weight: 600;
+    line-height: 34px;
+    margin-top: 24px;
+    min-height: 136px;
+    width: 735px;
+  }
+  
+  .flex-row-5 {
+    align-items: center;
+    display: flex;
+    height: 28px;
+    margin-left: 29px;
+    margin-top: 24px;
+    min-width: 316px;
+  }
+  
+  .ellipse-2 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 7px;
+    height: 14px;
+    width: 14px;
+  }
+  
+  .most-influencial-brand-twitter-handle {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 16px;
+    min-height: 28px;
+    min-width: 286px;
+    white-space: nowrap;
+  }
+  
+  .flex-row-3 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    height: 28px;
+    margin-right: 5px;
+    margin-top: 24px;
+    min-width: 704px;
+  }
+  
+  .x1900-increase-in-di {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 16px;
+    min-height: 28px;
+    min-width: 674px;
+    white-space: nowrap;
+  }
+  
+  .flex-row-4 {
+    align-items: center;
+    display: flex;
+    height: 28px;
+    margin-left: 32px;
+    margin-top: 24px;
+    min-width: 711px;
+  }
+  
+  .x2nd-largest-and-most {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 16px;
+    min-height: 28px;
+    min-width: 468px;
+    white-space: nowrap;
+  }
+  
+  .group-315 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    min-height: 322px;
+    width: 741px;
+  }
+  
+  .group-315-item {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+    min-height: 128px;
+    width: 735px;
+  }
+  
+  .our-strategy {
+    letter-spacing: 0;
+    min-height: 34px;
+  }
+  
+  .tecno-live-smart-campaign {
+    letter-spacing: 0;
+    min-height: 57px;
+    text-align: left;
+  }
+  
+  .flex-row-2 {
+    align-items: center;
+    display: flex;
+    height: 28px;
+    margin-left: 32px;
+    margin-top: 16px;
+    min-width: 711px;
+  }
+  
+  .most-engaging-brand {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 16px;
+    min-height: 28px;
+    min-width: 419px;
+    white-space: nowrap;
+  }
+  
+  .campaign-results {
+    letter-spacing: 0;
+    margin-top: 40px;
+    min-height: 34px;
+  }
+  
+  .flex-col-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 2702px;
+    width: 1360px;
+  }
+  
+  .overlap-group-2 {
+    height: 238px;
+    margin-right: 0.73px;
+    margin-top: 55px;
+    position: relative;
+    width: 48px;
+  }
+  
+  .group-186 {
+    height: 222px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+  }
+  
+  .frame-25-btn {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 48px;
+    left: 0px;
+    position: absolute;
+    top: 189px;
+    width: 48px;
+  }
+  
+  .overlap-group14 {
+    height: 1107px;
+    position: relative;
+    width: 1360px;
+  }
+  
+  .vector {
+    height: 1px;
+    left: 1320px;
+    position: absolute;
+    top: 335px;
+    width: 1px;
+  }
+  
+  .overlap-group9 {
+    height: 700px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1360px;
+  }
+  
+  .text-1 {
+    letter-spacing: 0;
+    min-height: 16px;
+    width: 15px;
+  }
+  
+  .place {
+    letter-spacing: 0;
+    margin-top: 4px;
+    min-height: 23px;
+    width: 44px;
+  }
+  
+  .group-21 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    left: 505px;
+    min-height: 43px;
+    position: absolute;
+    top: 26px;
+    width: 37px;
+  }
+  
+  .blog {
+    letter-spacing: 0;
+    margin-top: 4px;
+    min-height: 23px;
+    width: 33px;
+  }
+  
+  .text {
+    letter-spacing: 0;
+    min-height: 16px;
+    width: 18px;
+  }
+  
+  .rectangle-15 {
+    height: 700px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 88px;
+  }
+  
+  .group-2 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    left: 198px;
+    min-height: 43px;
+    position: absolute;
+    top: 26px;
+    width: 69px;
+  }
+  
+  .about-us {
+    color: 
+  #fffefa;
+    font-family: var(--font-family-rozha_one);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: 4px;
+    min-height: 23px;
+    width: 65px;
+  }
+  
+  .text-3 {
+    letter-spacing: 0;
+    min-height: 16px;
+    width: 17px;
+  }
+  
+  .group-270 {
+    height: 168px;
+    left: 30px;
+    position: absolute;
+    top: 508px;
+    width: 24px;
+  }
+  
+  .group-4 {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    left: 407px;
+    min-height: 43px;
+    position: absolute;
+    top: 26px;
+    width: 62px;
+  }
+  
+  .careers {
+    letter-spacing: 0;
+    margin-top: 4px;
+    min-height: 23px;
+    width: 58px;
+  }
+  
+  .group-269 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 303px;
+    min-height: 63px;
+    position: absolute;
+    top: 26px;
+    width: 63px;
+  }
+  
+  .group-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+    min-height: 43px;
+    width: 67px;
+  }
+  
+  .services {
+    letter-spacing: 0;
+    margin-top: 4px;
+    min-height: 23px;
+    width: 63px;
+  }
+  
+  .text-4 {
+    color: var(--brand-coloureea120);
+    font-family: var(--font-family-koho);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 16px;
+    width: 18px;
+  }
+  
+  .ellipse-1 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 4.02px/4px;
+    height: 8px;
+    margin-right: 0;
+    margin-top: 12px;
+    width: 8px;
+  }
+  
+  .rectangle-1 {
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1360px;
+  }
+  
+  .text-filled-icon-1 {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 38px;
+    left: 1204px;
+    min-width: 132px;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .enter-label {
+    color: var(--gallery);
+    font-family: var(--font-family-rozha_one);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 23px;
+    min-width: 78px;
+  }
+  
+  .frame-25 {
+    align-items: flex-start;
+    background-color: var(--brand-coloureea120);
+    border-radius: 16px;
+    display: flex;
+    height: 38px;
+    margin-left: 16px;
+    min-width: 38px;
+    padding: 7.5px;
+  }
+  
+  .iconly-light-arrow-right {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/622b359845d5c70356a6212e/releases/622b36da45d5c70356a62132/img/iconly-light-arrow---right-12@2x.svg);
+    background-size: 100% 100%;
+    height: 22px;
+    width: 22px;
+  }
+  
+  .they-dont-do-pr-lik {
+    color: var(--gallery);
+    font-weight: 400;
+    left: 514px;
+    line-height: 32px;
+    position: absolute;
+    top: 424px;
+    width: 464px;
+  }
+  
+  .group-376 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 648px;
+    min-height: 36px;
+    position: absolute;
+    top: 150px;
+    width: 66px;
+  }
+  
+  .our-buzz {
+    color: var(--background-colourfff9ef);
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 2px;
+    min-height: 24px;
+    min-width: 64px;
+    white-space: nowrap;
+  }
+  
+  .ellipse-2-1 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 4px;
+    height: 8px;
+    margin-right: 2px;
+    margin-top: 4px;
+    width: 8px;
+  }
+  
+  .overlap-group13 {
+    height: 729px;
+    left: 113px;
+    position: absolute;
+    top: 378px;
+    width: 1137px;
+  }
+  
+  .rectangle-23 {
+    height: 500px;
+    left: 65px;
+    object-fit: cover;
+    position: absolute;
+    top: 229px;
+    width: 1132px;
+  }
+  
+  .number {
+    color: 
+  #eea01f33;
+    font-family: var(--font-family-koho);
+    font-size: 220px;
+    font-weight: 600;
+    left: 865px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .overlap-group1 {
+    height: 182px;
+    left: 411px;
+    position: absolute;
+    top: 202px;
+    width: 537px;
+  }
+  
+  .title {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-rozha_one);
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 187px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: left;
+    top: 84px;
+    width: auto;
+  }
+  
+  .span {
+    color: var(--brand-coloureea120);
+  }
+  
+  .we-get-the {
+    background-color: transparent;
+    color: var(--background-colourfff9ef);
+    font-family: var(--font-family-rozha_one);
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: auto;
+  }
+  
+  .group-12533 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 192px;
+    min-height: 781px;
+    width: 1133px;
+  }
+  
+  .delivering-services-that-stand-out {
+    letter-spacing: 0;
+    // min-height: 136px;
+  }
+  
+  .group-12532 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    min-height: 597px;
+    width: 1131px;
+  }
+  
+  .group-12524 {
+    align-items: flex-start;
+    display: flex;
+    height: 247px;
+    min-width: 1131px;
+  }
+  
+  .group-522 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 69px;
+    min-height: 247px;
+    width: 328px;
+  }
+  
+  .reputation-management {
+    letter-spacing: 0;
+    min-height: 31px;
+    width: 328px;
+  }
+  
+  .the-hallmark-to-buil {
+    color: 
+  transparent;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 295px;
+  }
+  
+  .span0 {
+    color: var(--gallery);
+  }
+  
+  .ellipse-container {
+    height: 48px;
+    margin-left: 0;
+    position: relative;
+    width: 66px;
+  }
+  
+  .ellipse-20 {
+    border-radius: 23.27px;
+    height: 47px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+  
+  .ellipse-19 {
+    background-color: var(--fuel-yellow);
+    border-radius: 16.62px;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 33px;
+  }
+  
+  .group-521 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 69px;
+    min-height: 247px;
+    width: 337px;
+  }
+  
+  .star-container {
+    height: 37px;
+    margin-left: 4.62px;
+    margin-top: 5px;
+    position: relative;
+    width: 49px;
+  }
+  
+  .star-6 {
+    // height: 34px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    // width: 36px;
+  }
+  
+  .star-5 {
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 23px;
+  }
+  
+  .group-353 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    min-height: 167px;
+    width: 337px;
+  }
+  
+  .we-act-as-an-interme {
+    color: 
+  transparent;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 337px;
+  }
+  
+  .media-relations {
+    letter-spacing: 0;
+    min-height: 31px;
+    width: 328px;
+  }
+  
+  .group-523 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 247px;
+    width: 328px;
+  }
+  
+  .group-517 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    min-height: 167px;
+    width: 330px;
+  }
+  
+  .our-role-as-a-pr-age {
+    color: 
+  transparent;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 0.13px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 328px;
+  }
+  
+  .public-relations {
+    letter-spacing: 0;
+    min-height: 31px;
+    width: 328px;
+  }
+  
+  .polygon-container {
+    height: 36px;
+    margin-left: 3.62px;
+    margin-top: 6px;
+    position: relative;
+    width: 51px;
+  }
+  
+  .polygon-14 {
+    // height: 33px;
+    left: 14px;
+    position: absolute;
+    top: 0;
+    // width: 37px;
+  }
+  
+  .polygon-13 {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 26px;
+  }
+  
+  .group-12525 {
+    align-items: flex-start;
+    display: flex;
+    height: 278px;
+    margin-top: 72px;
+    min-width: 1131px;
+  }
+  
+  .group-524 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    min-height: 278px;
+    width: 337px;
+  }
+  
+  .group-349 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    min-height: 198px;
+    width: 341px;
+  }
+  
+  .articles-and-multime {
+    letter-spacing: 0;
+    min-height: 62px;
+    width: 328px;
+  }
+  
+  .content-is-like-wate {
+    color: 
+  transparent;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 337px;
+  }
+  
+  .polygon-container-1 {
+    height: 46px;
+    margin-left: 0.64px;
+    position: relative;
+    width: 59px;
+  }
+  
+  .polygon-16 {
+    // height: 46px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    // width: 46px;
+  }
+  
+  .polygon-15 {
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 33px;
+  }
+  
+  .group-526 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    min-height: 247px;
+    width: 337px;
+  }
+  
+  .overlap-group-3 {
+    height: 48px;
+    margin-left: 0;
+    position: relative;
+    width: 65px;
+  }
+  
+  .rectangle-33 {
+    border-radius: 12px;
+    height: 48px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 48px;
+  }
+  
+  .rectangle-32 {
+    background-color: var(--fuel-yellow);
+    border-radius: 12px;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 34px;
+  }
+  
+  .group-359 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    min-height: 167px;
+    width: 341px;
+  }
+  
+  .digital-media-marketing {
+    letter-spacing: 0;
+    min-height: 31px;
+    width: 328px;
+  }
+  
+  .we-focus-primarily-o {
+    color: 
+  transparent;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 337px;
+  }
+  
+  .group-525 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 247px;
+    width: 337px;
+  }
+  
+  .ellipse-container-1 {
+    height: 43px;
+    margin-left: -0.29px;
+    margin-top: 4px;
+    position: relative;
+    width: 52px;
+  }
+  
+  .ellipse-22 {
+    // height: 35px;
+    left: 12px;
+    position: absolute;
+    top: 0;
+    // width: 40px;
+  }
+  
+  .ellipse-21 {
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 28px;
+  }
+  
+  .group-357 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    min-height: 167px;
+    width: 341px;
+  }
+  
+  .events-management {
+    letter-spacing: 0;
+    min-height: 31px;
+    width: 328px;
+  }
+  
+  .we-plan-organize-an {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    min-height: 120px;
+    width: 337px;
+  }
+  
+  .few-success-stories-case-studies {
+    align-self: flex-start;
+    letter-spacing: 0;
+    margin-left: 178px;
+    margin-top: 80px;
+    min-height: 136px;
+    width: 596px;
+  }
+  
+  .flex-row-7 {
+    align-items: flex-start;
+    display: flex;
+    height: 919px;
+    margin-left: 90px;
+    margin-top: 136px;
+    min-width: 1132px;
+  }
+  
+  .flex-col-5 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59px;
+    min-height: 919px;
+    width: 736px;
+  }
+  
+  .an-offline-activity {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 24px;
+    min-height: 64px;
+    width: 735px;
+  }
+  
+  .flex-row-12 {
+    align-items: center;
+    display: flex;
+    height: 23px;
+    margin-left: 33px;
+    margin-top: 24px;
+    min-width: 404px;
+  }
+  
+  .improved-positive-br {
+    color: var(--gallery);
+    font-weight: 400;
+    margin-left: 16px;
+    min-height: 23px;
+    min-width: 374px;
+  }
+  
+  .tecno-camon-c8-campaign {
+    letter-spacing: 0;
+    margin-left: 1px;
+    min-height: 57px;
+    width: 735px;
+  }
+  
+  .flex-row-8 {
+    align-items: center;
+    display: flex;
+    height: 23px;
+    margin-left: 32px;
+    margin-top: 24px;
+    min-width: 319px;
+  }
+  
+  .create-the-hashtag-capturelifefive13 {
+    color: var(--gallery);
+    font-weight: 400;
+    margin-left: 16px;
+    min-height: 23px;
+    min-width: 289px;
+  }
+  
+  .flex-row {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    height: 64px;
+    margin-right: 0;
+    margin-top: 24px;
+    min-width: 704px;
+  }
+
+  .flex-row-13 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    height: 64px;
+    margin-right: 0;
+    margin-top: 24px;
+    min-width: 704px;
+  }
+  
+  .spread-user-generate {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 16px;
+    min-height: 64px;
+    width: 674px;
+  }
+  
+  .ellipse-27-1 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 7px;
+    height: 14px;
+    margin-top: 10px;
+    width: 14px;
+  }
+  
+  .the-capturelifefive {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 1px;
+    margin-top: 40px;
+    min-height: 64px;
+    width: 735px;
+  }
+  
+  .ellipse-27 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 6.71px/7px;
+    height: 14px;
+    margin-top: 9px;
+    width: 13px;
+  }
+  
+  .incentivized-partici {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 15px;
+    min-height: 64px;
+    width: 675px;
+  }
+  
+  .c8-campaign-results {
+    color: var(--gallery);
+    font-family: var(--font-family-rozha_one);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 1px;
+    margin-top: 40px;
+    min-height: 34px;
+  }
+  
+  .brand-tecno-mobile-1 {
+    color: var(--gallery);
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 1px;
+    margin-top: 24px;
+    min-height: 136px;
+    width: 735px;
+  }
+  
+  .flex-row-9 {
+    align-items: flex-end;
+    display: flex;
+    height: 23px;
+    margin-left: 33px;
+    margin-top: 16px;
+    min-width: 397px;
+  }
+  
+  .ellipse-25 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 7px;
+    height: 14px;
+    margin-bottom: 2px;
+    width: 14px;
+  }
+  
+  .one-of-the-highest-s {
+    color: var(--gallery);
+    font-weight: 400;
+    margin-left: 16px;
+    min-height: 23px;
+    min-width: 367px;
+  }
+  
+  .flex-row-10 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    height: 56px;
+    margin-right: 1px;
+    margin-top: 24px;
+    min-width: 702px;
+  }
+  
+  .perceived-as-best-ca {
+    color: var(--gallery);
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 16px;
+    min-height: 56px;
+    width: 672px;
+  }
+  
+  .ellipse-26 {
+    background-color: var(--brand-coloureea120);
+    border-radius: 7px;
+    height: 14px;
+    margin-top: 8px;
+    width: 14px;
+  }
+  
+  .flex-row-11 {
+    align-items: center;
+    display: flex;
+    height: 23px;
+    margin-left: 33px;
+    margin-top: 24px;
+    min-width: 513px;
+  }
+  
+  .among-most-engaging {
+    color: var(--gallery);
+    font-weight: 400;
+    margin-left: 16px;
+    min-height: 23px;
+    min-width: 483px;
+  }
+  
+  .overlap-group11 {
+    height: 434px;
+    position: relative;
+    width: 337px;
+  }
+  
+  .number-3 {
+    -webkit-text-stroke: 1px var(--brand-coloureea120);
+    left: 88px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 174px;
+  }
+  
+  .overlap-group8 {
+    background-color: var(--background-colour040505);
+    height: 904px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .vector-10 {
+    height: 1px;
+    left: 40px;
+    position: absolute;
+    top: 109px;
+    width: 1360px;
+  }
+  
+  .group-container-1 {
+    height: 24px;
+    margin-top: 16px;
+    position: relative;
+    width: 89px;
+  }
+  
+  .group-51 {
+    align-items: flex-start;
+    display: flex;
+    height: 24px;
+    left: 0;
+    min-width: 89px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .twitter-1-1 {
+    height: 24px;
+    margin-top: -0.5px;
+    width: 24px;
+  }
+  
+  .overlap-group-4 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/622b359845d5c70356a6212e/releases/622e8fa610f6beb62e0c5883/img/linkedin-1-5@2x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    margin-top: -0.5px;
+    min-width: 24px;
+  }
+  
+  .linkedin-1 {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .group-container-2 {
+    height: 24px;
+    margin-top: 16px;
+    position: relative;
+    width: 108px;
+  }
+  
+  .facebook-1-1 {
+    height: 24px;
+    margin-top: -0.5px;
+    width: 24px;
+  }
+  
+  .group-container {
+    height: 24px;
+    margin-top: 16px;
+    position: relative;
+    width: 112px;
+  }
+  
+  .instagram-1-1-1 {
+    height: 24px;
+    margin-top: -0.5px;
+    width: 24px;
+  }
+  
+  .instagram-1-1 {
+    height: 24px;
+    margin-top: -0.5px;
+    width: 24px;
+  }
+  
+  .vector-11 {
+    height: 1px;
+    left: 153px;
+    position: absolute;
+    top: 594px;
+    width: 1135px;
+  }
+  
+  .tse-logo-orange4x-2 {
+    height: 46px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 48px;
+    width: 46px;
+  }
+  
+  .vector-12 {
+    height: 1px;
+    margin-top: 15px;
+    width: 1135px;
+  }
+  
+  .frame-26 {
+    align-items: center;
+    display: flex;
+    min-width: 141px;
+  }
+  
+  @media (max-width: 575px) {
+    .services-page {
+      height: 8391px;
+      // width: 390px;
+    }
+
+    .flex-col-1 {
+      margin-left: -1061px;
+    }
+
+    .we-get-the {
+      font-size: 38px;
+      left: 131px;
+    }
+
+    .title {
+      font-size: 38px;
+      left: 187px;
+      top: 48px;
+    }
+
+    .they-dont-do-pr-lik {
+      left: 508px;
+      width: 352px;
+    }
+
+    .rectangle-23 {
+      height: 300px;
+      left: 393px;
+      width: 355px;
+    }
+
+    .overlap-group-2 {
+      margin-top: 953px;
+      height: 107px;
+
+    }
+
+    .group-186 {
+      height: 76px;
+    }
+
+    .frame-25-btn {
+      height: 38px;
+      left: 4px;
+      top: 56px;
+      width: 38px;
+    }
+
+    .group-12533 {
+      margin-top: 162px;
+      margin-left: 784px;
+    }
+
+    .flex-col-2 {
+      margin-top: -555px;
+    }
+
+    .delivering-services-that-stand-out {
+      width: 286px;
+      line-height: 38px;
+    }
+
+    .group-12524,
+    .group-12525 {
+      display: inline-block;
+    }
+
+    .group-12525 {
+      margin-top: 550px;
+    }
+
+    .group-522,
+    .group-521,
+    .group-524,
+    .group-526,
+    .flex-col-3 {
+      margin-left: 0px;
+    }
+
+    .flex-row-1 {
+      display: inline-block;
+      margin-left: 809px;
+      margin-top: 367px;
+    }
+
+    .brand-tecno-mobile,
+    .group-315-item {
+      width: 350px;
+    }
+
+    .tecno-live-smart-campaign {
+      text-align: left;
+    }
+
+    .few-success-stories-case-studies {
+      margin-left: 505px;
+      margin-top: 1069px;
+      width: 303px;
+      line-height: 32px;
+    }
+
+    .flex-row-3,
+    .flex-row-4 {
+      margin-top: 55px;
+    }
+
+    .most-engaging-brand,
+    .x1900-increase-in-di,
+    .x2nd-largest-and-most,
+    .most-influencial-brand-twitter-handle,
+    .incentivized-partici,
+    .spread-user-generate,
+    .one-of-the-highest-s,
+    .perceived-as-best-ca,
+    .among-most-engaging,
+    .improved-positive-br {
+      min-height: 28px;
+      min-width: 298px;
+      width: 30px;;
+      white-space: normal;
+    }
+
+    .flex-row-6 {
+      margin-left: -258px;
+      margin-top: 733px;
+    }
+
+    .flex-col-4 {
+      margin-left: -348px;
+      margin-top: 407px;
+    }
+
+    .usaid-ifes-media-mon {
+      width: 380px;
+    }
+
+    .the-kenya-election-w {
+      width: 351px;
+    }
+
+    .vector-27 {
+      margin-top: 908px;
+    }
+
+    .vector-28 {
+      margin-right: 1083px;
+      margin-top: 26px;
+    }
+
+    .flex-row-7 {
+      margin-left: -256px;
+      margin-top: 1755px;
+    }
+
+    .flex-col-5 {
+      align-self: flex-start;
+      margin-left: -348px;
+      margin-top: 456px;
+    }
+
+    .the-capturelifefive,
+    .an-offline-activity {
+      width: 371px;
+    }
+
+    .tecno-camon-c8-campaign {
+      width: 426px;
+    }
+
+    .flex-row-13 {
+      margin-top: 109px;
+    }
+
+    .an-offline-activity {
+      margin-top: 58px;
+    }
+
+    .flex-row-9 {
+      align-items: flex-start;
+      margin-top: 62px;
+    }
+
+    .one-of-the-highest-s {
+      margin-top: -10px;
+    }
+
+    .flex-row-10 {
+      margin-top: 38px;
+    }
+
+    .flex-row-11 {
+      margin-top: 58px;
+    }
+
+    .flex-row-12 {
+      margin-top: 48px;
+    }
+
+    .group-12538 {
+      margin-left: -310px;
+      margin-top: 965px;
+    }
+
+    .companies-that-trust-tek-sight-edge {
+      width: 290px;
+      line-height: 32px;
+    }
+
+    .overlap-group-1 {
+      height: 100px;
+      min-width: 100px;
+      padding: 53.5px 32.5px;
+    }
+
+    .group-12537 {
+      margin-top: 0;
+    }
+
+    .group-430 {
+      margin-left: -45px;
+      margin-top: 20px;
+    }
+  }
+}

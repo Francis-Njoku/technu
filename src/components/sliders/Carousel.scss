@@ -1,0 +1,242 @@
+@import "../../variables";
+
+main {
+
+  div.ant-carousel > div > ul {
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px 2%;
+
+    li {
+      width: 50px;
+    }
+  }
+
+  .slide_one {
+    background: url("/assets//img/cod_wide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 440px;
+    box-shadow: inset 0 0 1000px 1000px rgba(0, 0, 0, 0.671);
+    padding: 7% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    .heading {
+      width: fit-content;
+
+      .badge {
+        width: fit-content;
+        padding: 0.2rem 2rem;
+        background: #000;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        width: 80%;
+        line-height: 1.2;
+      }
+    }
+
+    .call_to_action {
+      width: fit-content;
+
+      p {
+        color: $white;
+        padding-right: 20%;
+      }
+
+      .button_container {
+        display: flex;
+
+        #action-btn {
+          width: fit-content;
+          display: inline-block;
+          flex-grow: unset;
+          margin-right: 10px;
+
+          button.icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 0.5rem;
+            background: $dark;
+          }
+        }
+      }
+    }
+  }
+
+  .slide_tournament {
+    background: url("/assets//img/cod_wide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 262.53px;
+    box-shadow: inset 0 0 1000px 1000px rgba(0, 0, 0, 0.671);
+    padding: 7% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    .heading {
+      width: fit-content;
+
+      .badge {
+        width: fit-content;
+        padding: 0.2rem 2rem;
+        background: #000;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        width: 80%;
+        line-height: 1.2;
+      }
+    }
+
+    .call_to_action {
+      width: fit-content;
+
+      p {
+        color: $white;
+        padding-right: 20%;
+      }
+
+      .button_container {
+        display: flex;
+
+        #action-btn {
+          width: fit-content;
+          display: inline-block;
+          flex-grow: unset;
+          margin-right: 10px;
+
+          button.icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 0.5rem;
+            background: $dark;
+          }
+        }
+      }
+    }
+  }
+}
+
+#tournament {
+  .inner_container {
+    main {
+      .slide_one {
+        padding: 3% 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  #landing {
+    .main_container {
+      .inner_container {
+        main {
+          .slide_one {
+            justify-content: center;
+
+            .heading {
+              width: fit-content;
+
+              .badge {
+                width: fit-content;
+                padding: 0.2rem 2rem;
+                background: #000;
+              }
+
+              h1 {
+                font-size: 2.5rem;
+                line-height: 1.2;
+                margin-top: 10px;
+              }
+            }
+
+            .call_to_action {
+              width: fit-content;
+
+              p {
+                // color: $white;
+                padding-right: 20%;
+              }
+
+              .button_container {
+                display: flex;
+
+                button {
+                  padding-right: 1rem !important;
+                  padding-left: 1rem !important;
+                }
+
+                #action-btn {
+                  width: fit-content;
+                  display: inline-block;
+                  flex-grow: unset;
+                  margin-right: 5px;
+
+                  button {
+                    padding: 0.5rem 1rem;
+                    font-size: 12px;
+                  }
+
+                  button.icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding: 0 0.5rem;
+                    // background: $dark;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  #landing {
+    .main_container {
+      .inner_container {
+        main {
+          .slide_one {
+            .call_to_action {
+              .button_container {
+                #action-btn {
+                  margin-right: 3px;
+
+                  button {
+                    padding: 0.4rem 0.8rem;
+                    font-size: 10px;
+                  }
+
+                  button.icon {
+                    padding: 0 0.4rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+@import '../../variables';
+
+#footer {
+  // .ant-layout-footer {
+  //   padding: 24px 0;
+  //   background: #040505;
+  // }
+
+  .group-159 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    left: 154px;
+    min-height: 54px;
+    position: absolute;
+    top: 224px;
+    width: 1134px;
+  }
+
+
+  .subscribe-to-our-new {
+    color: transparent;
+    font-family: var(--font-family-rozha_one);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    left: 154px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 150px;
+  }
+
+  .enter-email-address {
+    color: #8a8a8a;
+    font-family: var(--font-family-koho);
+    font-size: 32px;
+    font-weight: 400;
+    left: 154px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 226px;
+  }
+
+  .copyright-2021-by {
+    color: #d7d7d7;
+    font-weight: 400;
+    left: 154px;
+    line-height: 22px;
+    position: absolute;
+    top: 721px;
+    width: 252px;
+  }
+
+  .component-12 {
+    align-items: flex-start;
+    background-color: var(--background-colour040505);
+    display: flex;
+    margin-left: 0;
+    // margin-top: 168px;
+    width: 1440px;
+  }
+
+  .overlap-group7 {
+    background-color: var(--background-colour040505);
+    height: 904px;
+    position: relative;
+    width: 1440px;
+    margin-left: 50px;
+  }
+
+  @media(max-width: 575px) {
+    .component-12 {
+      margin-left: 0;
+      width: 390px;
+    }
+
+    .overlap-group {
+      margin-left: 47px;
+    }
+
+    .subscribe-to-our-new {
+      font-size: var(--font-size-xl);
+      left: 16px;
+    }
+    
+    .enter-email-address {
+      font-size: 22px;
+      left: 16px;
+    }
+    
+    .frame-25-1 {
+      margin-left: 5px;
+    }
+
+    .group-159 {
+      align-items: flex-start;
+      left: 234px;
+    }
+
+    .group-sec {
+      margin-top: 30px;
+      display: flex;
+      position: relative;
+    }
+
+    .group-164 {
+      left: 16px;
+      top: 325px;
+    }
+
+    .group-sub-companies {
+      margin-left: -247px;
+      display: flex;
+      position: relative;
+      top: 16px;
+    }
+
+    .group-162 {
+      left: 16px;
+      top: 635px;
+    }
+
+    .group-171 {
+      left: 16px;
+      top: 964px;
+    }
+
+    .group-172 {
+      left: 16px;
+      top: 1172px;
+    }
+
+    .group-173 {
+      left: 16px;
+      top: 1290px;
+    }
+
+    .tek-sight-edge-limite {
+      left: 16px;
+      top: 875px;
+      width: 340px;
+    }
+
+    .copyright-2021-by {
+      left: 43px;
+      top: 1393px;
+      padding: 26px 0;
+      text-align: center;
+      width: 297px; 
+    }
+
+    .group-168 {
+      left: 16px;
+      top: 1065px;
+    }
+
+
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../../variables";
+
+.match-warning-modal .ant-modal-content .ant-modal-body {
+
+  .modal__heading {
+    margin-bottom: 1rem;
+   
+    h2 {
+      font-size: 1.8rem;
+      color: $yellow !important;
+    }
+  }
+
+  .modal__message {
+    display: flex;
+    padding: 0 20%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .modal___button-container {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      margin: 0 5px;
+    }
+
+    button:nth-child(1) {
+      background-color: transparent;
+      border: 2px solid $yellow;
+    }
+
+    button:nth-child(1):hover {
+      background-color: darken($color: $yellow, $amount: 10);
+      border-color: darken($color: $yellow, $amount: 10);
+      color: $dark;
+    }
+  }
+}

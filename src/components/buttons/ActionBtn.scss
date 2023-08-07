@@ -1,0 +1,94 @@
+#action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+
+  button {
+    background-color: transparent;
+    border: none;
+    padding: .7rem 3rem;
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: 'gothammedium';
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+
+  // colours
+
+  button.blue {
+    background-color: #335191;
+  }
+
+  button.red {
+    background-color: #FF0039;
+  }
+
+  button.black {
+    background-color: #000;
+  }
+
+  button.outline-blue {
+    border-color: #335191;
+  }
+
+  button.outline-red {
+    border-color: #FF0039;
+  }
+
+
+  //hover effects
+
+  button.h-spread:hover {
+    background: #434343 !important;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px #fff;
+    -moz-box-shadow: 0px 5px 40px -10px #fff;
+    box-shadow: 0 0px 25px -15px #fff;
+    transition: all 0.4s ease 0s;
+  }
+
+  button.h-fill-blue:hover {
+    background: #335191;
+  }
+
+  button.h-fill-red:hover {
+    background: #FF0039;
+  }
+
+  button.h-outline-blue:hover {
+    background: transparent;
+    border: 1px solid #335191;
+  }
+
+  button.h-outline-red:hover {
+    background: transparent;
+    border: 1px solid #FF0039
+  }
+
+  //width
+
+  a.full {
+    width: 100%;
+  }
+
+  button.full {
+    width: 100%;
+  }
+
+  button.short {
+    padding: .7rem 1.5rem;
+  }
+
+  button.thick {
+    padding: 1rem 1.5rem;
+  }
+
+ 
+}

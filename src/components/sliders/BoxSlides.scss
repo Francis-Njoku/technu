@@ -1,0 +1,375 @@
+@import "../../variables";
+
+#box-slide {
+  background: transparent;
+  width: 100%;
+
+  //fix for genre buttons margins
+  & > div > div > div > div > button.ant-btn {
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flickity-viewport {
+    display: flex;
+    flex-direction: row;
+
+    .flickity-slider {
+      display: flex;
+      left: unset !important;
+    }
+  }
+
+  .carousel-cell {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    background: transparent;
+  }
+
+  .carousel-cell-wide {
+    margin-right: 20px;
+  }
+
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+
+  .flickity-page-dots,
+  .flickity-prev-next-button {
+    display: none;
+  }
+}
+
+.main_container {
+  .inner_container {
+    main {
+      .section_two {
+        padding: 0;
+
+        .genre-slide {
+          width: 110vw;
+        }
+
+        .button_container {
+          flex-grow: 1;
+          display: flex;
+          margin: 10px 0;
+          // flex-wrap: wrap;
+
+          #action-btn {
+            width: fit-content;
+            display: inline-block;
+            flex-grow: unset;
+            margin: 0 10px 5px 0;
+          }
+        }
+
+        .game_info_box_container {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .game_info_box {
+          height: 182px;
+          width: 250px;
+          background: url("/assets//img/cod_box.png");
+          box-shadow: inset 0 0 1000px 1000px rgba(0, 0, 0, 0.671);
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          border-radius: 6px;
+
+          .badge {
+            font-size: 11px;
+            padding: 0.2rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: bold;
+
+            img {
+              margin-right: 5px;
+            }
+          }
+
+          .details {
+            display: flex;
+
+            img {
+              height: fit-content;
+              margin-right: 10px;
+            }
+
+            p {
+              color: $white;
+              display: flex;
+              flex-direction: column;
+              font-family: Gothambold;
+
+              small {
+                color: $white;
+                font-family: Gothambook;
+              }
+            }
+          }
+        }
+      }
+
+      .section_three,
+      .section_five {
+        margin-top: 50px;
+        padding: 0 2%;
+
+        h3 {
+          margin: 10px 0;
+        }
+
+        h3.second {
+          margin-top: 40px;
+        }
+
+        padding: 0 2%;
+
+        .button_container {
+          flex-grow: 1;
+          display: flex;
+          margin: 10px 0;
+          // flex-wrap: wrap;
+
+          #action-btn {
+            width: fit-content;
+            display: inline-block;
+            flex-grow: unset;
+            margin: 0 10px 5px 0;
+          }
+        }
+
+        .game_info_box_container {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .game_info_box {
+          height: 182px;
+          width: 250px;
+          background: url("/assets//img/cod_box.png");
+          box-shadow: inset 0 0 1000px 1000px rgba(0, 0, 0, 0.671);
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          border-radius: 6px;
+
+          .badge {
+            padding: 0.2rem 1rem !important;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: bold !important;
+            width: fit-content;
+            background: #000;
+
+            img {
+              margin-right: 5px;
+            }
+          }
+
+          .details {
+            display: flex;
+
+            img {
+              height: fit-content;
+              margin-right: 10px;
+            }
+
+            p {
+              color: $white;
+              display: flex;
+              flex-direction: column;
+              font-family: Gothambook;
+
+              small {
+                color: $white;
+                font-family: Gothamthin;
+              }
+            }
+          }
+        }
+
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          width: max-content;
+          width: 250px;
+          background: #1a1b1f;
+          overflow: hidden;
+          border-radius: 5px;
+
+          .more_details {
+            padding: 5%;
+
+            small {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              i {
+                color: $blue;
+              }
+            }
+
+            .bottom {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+
+              span {
+                color: $white;
+                font-size: 10px;
+                margin-top: 2px;
+              }
+            }
+          }
+        }
+
+        .game_info_box {
+          background: url("/assets/img/gow_box.png");
+          padding: 5%;
+          width: 100%;
+        }
+
+        //static slides
+
+        .game_info_box_container {
+          .box-slide-static {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .wrapper {
+              width: 24%;
+              margin-bottom: 20px;
+
+              .game_info_box {
+                background-size: cover;
+                background-repeat: no-repeat;
+              }
+            }
+
+            @media (max-width: 994px) {
+              .wrapper {
+                width: 32%;
+              }
+            }
+
+            @media (max-width: 750px) {
+              .wrapper {
+                width: 48%;
+              }
+            }
+
+            @media (max-width: 450px) {
+              .wrapper {
+                width: 98%;
+              }
+            }
+          }
+
+          @media (max-width: 450px) {
+            .box-slide-static {
+              justify-content: center;
+            }
+          }
+        }
+      }
+
+      .section_five {
+        .game_info_box_container {
+          margin-bottom: 30px;
+        }
+
+        .game_info_box_container .wrapper {
+          .game_info_box {
+            .badges {
+              display: flex;
+              justify-content: space-between;
+
+              .badge {
+                font-size: 10px;
+                font-weight: bold;
+              }
+            }
+
+            .details {
+              margin-bottom: 10px;
+
+              .badge {
+                font-size: 10px;
+                font-weight: bold;
+              }
+            }
+          }
+
+          .more_details {
+            border-bottom: 1px solid #52586233;
+            padding-bottom: 20px;
+
+            h3 {
+              margin-bottom: 3px;
+            }
+
+            small.bottom {
+              display: inline;
+              font-size: 12px;
+
+              span:nth-child(1) {
+                font-size: 12px;
+
+                color: $red;
+              }
+
+              span:nth-child(2) {
+                font-size: 12px;
+                margin-left: 10px;
+                color: $lightash;
+              }
+            }
+          }
+
+          .stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 5%;
+
+            p {
+              font-size: 13px;
+              display: flex;
+              align-items: center;
+              color: $white;
+              font-weight: 500;
+
+              i {
+                margin-right: 2px;
+                color: rgb(13, 212, 13);
+              }
+
+              span {
+                font-weight: normal;
+                color: $lightash;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+@import "../../../../variables";
+
+.deposit-payment-modal .ant-modal-content .ant-modal-body {
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  padding: 12% 7%;
+
+  .modal__heading {
+    margin-bottom: 1rem;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+
+    h2.with-bars {
+      display: flex;
+      align-items: center;
+
+      img:nth-child(1) {
+        margin-left: .5rem;
+      }
+
+      img {
+        margin: 0 .2rem;
+      }
+    }
+
+    p {
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    h4 {
+      margin: 0 0 1.6rem;
+      border-bottom: 2px solid $blue;
+      padding: 6px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      font-size: .8rem;
+      font-weight: bold;
+      font-family: gothambook;
+      width: fit-content;
+
+      span {
+        width: 15px;
+        height: 15px;
+        background-color: #000;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-left: 10px;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 2rem;
+
+      p {
+        margin-bottom: 0;
+        margin-right: 10px;
+      }
+
+      input {
+        flex-grow: 1;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+
+      p,
+      input {
+        background-color: $dark;
+        border: none;
+        padding: 0.4rem 1rem 0.4rem 0.7rem;
+        border-radius: 4px;
+        color: $lightteal;
+      }
+
+      input.full {
+        width: 100%;
+        margin: 1rem 0;
+      }
+    }
+
+    form.file-upload {
+      display: flex;
+      margin-bottom: .6rem;
+
+      p {
+        width: 70%;
+        margin: 0;
+      }
+
+      input[type='file'] {
+        display: none;
+      }
+
+     label {
+       flex-grow: 1;
+       height: 100%;
+
+       .button {
+        background-color: #131418;
+        border: none;
+        flex-grow: 1;
+        width: 100%; 
+        height: 100%;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+     }
+    }
+
+    .form-details {
+      width: 100%;
+
+      p {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.8rem;
+        color: $lightteal;
+
+        span {
+          display: flex;
+          align-items: center;
+        }
+        .icon {
+          margin-left: 1rem;
+          color: #fff;
+          background-color: #000;
+          border-radius: 100%;
+          height: 17px;
+          width: 17px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .form-container.withdrawdetails {
+    margin-top: 2rem;
+  }
+
+  @media(max-width: 775px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+
+  @media(max-width: 420px) {
+    .form-container {
+      width: 100%;
+    }
+  }
+
+  .modal___button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: auto;
+    max-width: 100%;
+
+    button {
+      margin: 0 5px;
+      padding-right: 3rem !important;
+      padding-left: 3rem !important;
+    }
+
+    @media (max-width: 415px) {
+      button {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 48%;
+        margin: 0;
+      }
+    }
+
+    button:nth-child(1) {
+      background-color: $blue;
+      border: 2px solid $blue;
+    }
+
+    button:nth-child(1):hover {
+      background-color: darken($color: $blue, $amount: 10);
+      border-color: darken($color: $blue, $amount: 10);
+      // color: $dark;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .modal___button-container {
+      margin: auto 0 0 0;
+      padding: 0;
+      flex-direction: column;
+      width: 100%;
+
+      button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .deposit-payment-modal .ant-modal-content .ant-modal-body {
+    padding: 20% 4%;
+  }
+}
